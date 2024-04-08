@@ -1,8 +1,8 @@
 footer {
+    color: white;
+
     #footer-top {
         background-image: url(../img/footer-bg.jpg);
-        color: white;
-
     
         #left-footer {
             width: 50%;
@@ -53,6 +53,36 @@ footer {
                 height: 100%;
                 background-repeat: no-repeat;
                 background-position: center;
+            }
+        }
+    }
+
+    #footer-bottom {
+        background-color: #303030;
+        padding: 30px 0;
+
+        .my_footer_btn {
+            button {
+                padding: 16px 14px;
+                text-transform: uppercase;
+                color: white;
+                background-color: transparent;
+                border: 2px solid $primary;
+                font-weight: bold;
+            }
+        }
+        .socials {
+            align-items: center;
+
+            span {
+                text-transform: uppercase;
+                color: $primary;
+                font-weight: bold;
+                padding-right: 30px;
+            }
+            .socials-logos {
+                display: flex;
+                gap: 16px;
             }
         }
     }

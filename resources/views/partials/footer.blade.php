@@ -1,10 +1,6 @@
 <footer>
     <div id="footer-top">
-
-
-
         <div class="container d-flex">
-    
             <section id="left-footer">
                 <div id="links">
                     <div>
@@ -62,19 +58,34 @@
                 </div>
             </section>
 
-
-
-
-
-            <section id="footer-image">
-                
+            <section id="footer-image">                
                 <div class="img-container"></div>
-
             </section>
         </div>
-
-
-
-
     </div>
+
+    <div id="footer-bottom">
+        <div class="container d-flex justify-content-between align-items-center ">
+
+            <div class="my_footer_btn">
+                <button>Sign-up now!</button>
+            </div>
+
+            <div class="socials d-flex ">
+                <span>Follow us</span>
+
+                <div class="socials-logos">
+                    <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}" alt="facebook">
+                    <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}" alt="twitter">
+                    <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}" alt="youtube">
+                    <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}" alt="pinterest">
+                    <img src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
 </footer>
