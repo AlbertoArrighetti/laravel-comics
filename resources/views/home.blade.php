@@ -12,7 +12,7 @@
             <div class="row row-cols-6">
                 
                 @foreach ($comics as $currentComic)
-                <a href="comic" class="comic-card">
+                <a href="{{route('comic')}}" class="comic-card">
                     <div class="thumb">
                         <img src="{{$currentComic['thumb']}}" alt="">
                     </div>

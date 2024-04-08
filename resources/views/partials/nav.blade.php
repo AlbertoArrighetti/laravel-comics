@@ -13,7 +13,7 @@
             <div class="list">
                 <ul class="mb-0">
                     <li><a href="#">characters</a></li>
-                    <li><a href="#">comics</a></li>
+                    <li><a href="{{route('home')}}">comics</a></li>
                     <li><a href="#">movies</a></li>
                     <li><a href="#">tv</a></li>
                     <li><a href="#">games</a></li>
@@ -27,8 +27,10 @@
                     </li>
                 </ul>
             </div>
-            <div>
-                searchbar
+            <div class="searchbar">
+                <input type="search" id="searchbar">
+                <label for="searchbar">Search</label>
+                <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
     </div>

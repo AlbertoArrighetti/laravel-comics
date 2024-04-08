@@ -27,7 +27,10 @@ Route::get('/comic', function(){
     $comics = config('db.comics');
     $comic = $comics[0];
 
-    return view('comic', compact('comic'));
+    $comicDate = DateTime::createFromFormat('Y-m-d', $comic['sale_date']);
+    $formattedDate = $comicDate->format('M d Y');
 
+
+    return view('comic', compact('comic', 'formattedDate'));
 
 })->name('comic');

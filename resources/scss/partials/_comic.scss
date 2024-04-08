@@ -65,3 +65,41 @@
         }
     }
 }
+#more-comic-infos {
+    background-color: #f6f6f6;
+
+    h3 {
+        padding: 30px 0;
+        color: #004165;
+    }
+    .container {
+        gap: 40px;
+    }
+    .talent, .specs  {
+        width: 50%;
+    }
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin-bottom: 100px;
+        
+        li {
+            display: flex;
+            border-bottom: 1px solid #c0c1c2;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+
+            span {
+                min-width: 200px;
+                color: #004165;
+                font-weight: 400;
+            }
+            p {
+                color: #62a5ca;
+            }
+            .series {
+                color: #62a5ca;
+            }
+        }
+    }
+}
