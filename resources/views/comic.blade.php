@@ -3,7 +3,13 @@
 @section('content')
 <main>
     <div id="comic-details">
-        <div class="bar"></div>
+        <div class="bar">
+            <div class="img-wrapper">
+                <img src="{{ $comic['thumb'] }}" alt="">
+                <div class="type">{{$comic['type']}}</div>
+                <div class="link"><a href="{{route('home')}}">View Gallery</a></div>
+            </div>
+        </div>
 
         <div class="container d-flex ">
             <div class="details">
