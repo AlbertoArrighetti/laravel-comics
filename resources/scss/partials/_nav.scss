@@ -1,0 +1,47 @@
+#top-bar {
+    color: white;
+    background-color: $primary;
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        gap: 60px;
+    }
+    * {
+        text-transform: uppercase;
+        padding: 4px;
+        font-size: 0.8em;
+    }
+}
+#nav {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .list {
+            display: flex;
+            align-items: center;
+        }
+        ul {
+            display: flex;
+            list-style-type: none;
+            gap: 40px;
+    
+    
+            li {
+                padding: 50px 0;
+
+                a{
+                    text-decoration: none;
+                    color: black;
+                    text-transform: uppercase;
+                }
+                i {
+                    font-size: .7em;
+                    color: $primary;
+                }
+            }
+        }
+    }
+}
