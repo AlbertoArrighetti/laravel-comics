@@ -12,7 +12,7 @@
             <div class="row row-cols-6">
                 
                 @foreach ($comics as $currentComic)
-                <div class="comic-card">
+                <a href="comic" class="comic-card">
                     <div class="thumb">
                         <img src="{{$currentComic['thumb']}}" alt="">
                     </div>
@@ -20,7 +20,7 @@
                     <div class="title">
                         <div>{{$currentComic['series']}}</div>
                     </div>
-                </div>
+                </a>
                 @endforeach
             </div> 
     
